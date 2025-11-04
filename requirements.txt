@@ -1,9 +1,7 @@
-import streamlit as st
-import geopandas as gpd
-import pandas as pd
-import matplotlib.pyplot as plt
-import leafmap.foliumap as leafmap
-import requests
-from io import BytesIO
-import zipfile
-import mapclassify
+streamlit
+geopandas
+pandas
+matplotlib
+leafmap[folium] # or leafmap
+requests
+mapclassify
