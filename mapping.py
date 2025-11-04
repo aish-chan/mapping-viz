@@ -52,7 +52,7 @@ def load_tiger_counties():
 # csv_file = 'highway_lengths_by_district.csv'
 
 
-url = "/us_counties_npp_change_2002_2022.csv"
+url = "us_counties_npp_change_2002_2022.csv"
 @st.cache_data
 def read_csv(url):
     df = pd.read_csv(url)
